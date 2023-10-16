@@ -3,13 +3,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Projeto1.Models;
+using Projeto1.Data;
 
 #nullable disable
 
 namespace Projeto1.Migrations
 {
-    [DbContext(typeof(TrevoContext))]
+    [DbContext(typeof(Context))]
     partial class TrevoContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -21,7 +21,23 @@ namespace Projeto1.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Projeto1.Models.Jogadores", b =>
+            modelBuilder.Entity("Projeto1.Models.ElencoFeminino", b =>
+                {
+                    b.Property<int>("Matricula")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Posicao")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Matricula");
+
+                    b.ToTable("Feminino");
+                });
+
+            modelBuilder.Entity("Projeto1.Models.ElencoMasculino", b =>
                 {
                     b.Property<int>("Matricula")
                         .HasColumnType("int");

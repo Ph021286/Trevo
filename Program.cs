@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Projeto1.Models;
 using Microsoft.Extensions.DependencyInjection;
-
+using Projeto1.Data;
 
 namespace Projeto1
 {
@@ -10,16 +9,15 @@ namespace Projeto1
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-      
+          
             // Add services to the container.
             
             builder.Services.AddControllers();
-            builder.Services.AddEntityFrameworkSqlServer().AddDbContext<TrevoContext>(
+            builder.Services.AddEntityFrameworkSqlServer().AddDbContext<Context>(
             Options => Options.UseSqlServer(builder.Configuration.GetConnectionString("SQLConnection"))
 
             );
             
-
             builder.Services.AddControllersWithViews();
             var app = builder.Build();
 

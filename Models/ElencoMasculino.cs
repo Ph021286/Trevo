@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Projeto1.Models;
 
-public partial class Jogadores
+public partial class ElencoMasculino
 {
     [Key]
     public int Matricula { get; set; }
@@ -13,12 +13,12 @@ public partial class Jogadores
     public string? Posicao { get; set; }
 
 
-    public Jogadores()
+    public ElencoMasculino()
     {
 
     }
 
-    public Jogadores(int matricula, string? nome, string? posição)
+    public ElencoMasculino(int matricula, string? nome, string? posição)
     {
         Matricula = matricula;
         Nome = nome;

@@ -1,13 +1,14 @@
-﻿@model Projeto1.Models.Jogadores
+﻿@model Projeto1.Models.ElencoFeminino
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Delete";
 }
 
-<h1>Details</h1>
+<h1>Delete</h1>
 
+<h3>Realmente deseja deletar?</h3>
 <div>
-    <h4>Jogadores</h4>
+    <h4>Elenco Feminino</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -29,8 +30,10 @@
             @Html.DisplayFor(model => model.Posicao)
         </dd>
     </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Matricula">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Matricula" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Retorne a lista</a>
+    </form>
 </div>

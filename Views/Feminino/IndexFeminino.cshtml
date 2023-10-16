@@ -1,17 +1,20 @@
-﻿@model IEnumerable<Projeto1.Models.Jogadores>
+﻿@model IEnumerable<Projeto1.Models.ElencoFeminino>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Index"; 
 }
 
-<h1>Index</h1>
+<h1>Elenco Feminino</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Adicionar Atletas</a>
 </p>
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Matricula)
+            </th>  
             <th>
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
@@ -24,6 +27,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Matricula)
+            </td>   
             <td>
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>

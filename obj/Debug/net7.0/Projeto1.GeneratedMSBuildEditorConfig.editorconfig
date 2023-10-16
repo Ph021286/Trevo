@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\User\OneDrive\Desktop\Aulas1\Projeto1
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Feminino/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVtaW5pbm9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Feminino/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVtaW5pbm9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Feminino/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVtaW5pbm9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Feminino/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVtaW5pbm9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Feminino/IndexFeminino.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVtaW5pbm9cSW5kZXhGZW1pbmluby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,44 +44,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Jogadores1/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvcmVzMVxDcmVhdGUuY3NodG1s
+[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Masculino/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzY3VsaW5vXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Jogadores1/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvcmVzMVxEZWxldGUuY3NodG1s
+[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Masculino/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzY3VsaW5vXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Jogadores1/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvcmVzMVxEZXRhaWxzLmNzaHRtbA==
+[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Masculino/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzY3VsaW5vXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Jogadores1/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvcmVzMVxFZGl0LmNzaHRtbA==
+[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Masculino/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzY3VsaW5vXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Jogadores1/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvcmVzMVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Jogadores/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvcmVzXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Jogadores/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvcmVzXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Jogadores/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvcmVzXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Jogadores/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvcmVzXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Jogadores/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nYWRvcmVzXEluZGV4LmNzaHRtbA==
+[C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Masculino/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFzY3VsaW5vXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/User/OneDrive/Desktop/Aulas1/Projeto1/Views/Shared/Error.cshtml]

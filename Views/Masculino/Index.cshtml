@@ -1,22 +1,18 @@
-﻿@model IEnumerable<Projeto1.Models.Jogadores>
+﻿@model IEnumerable<Projeto1.Models.ElencoMasculino>
 
 @{
     ViewData["Title"] = "Index";
 }
 
-
-
 <h1>Jogadores</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Adicionar Atleta</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Matricula)
-            </th> <th>
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
             <th>
@@ -29,12 +25,10 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                    @Html.DisplayFor(modelItem => item.Matricula)
-            </td> <td>
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
             <td>
-                    @Html.DisplayFor(modelItem => item.Posicao)
+                @Html.DisplayFor(modelItem => item.Posicao)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Matricula">Edit</a> |
